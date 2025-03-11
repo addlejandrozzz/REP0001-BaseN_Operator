@@ -1,4 +1,4 @@
-package exfora.model;
+package exfora.model.util;
 
 import exfora.model.conversors.Binary_Conversor;
 import exfora.model.conversors.Decim_Conversor;

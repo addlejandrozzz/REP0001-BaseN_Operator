@@ -1,8 +1,7 @@
-package exfora.model;
+package exfora.model.util;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import exfora.model.util.Base;
 
 public class NumberGuardian {
 

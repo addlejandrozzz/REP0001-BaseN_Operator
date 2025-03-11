@@ -1,6 +1,4 @@
-package exfora.model;
-
-import exfora.model.util.Base;
+package exfora.model.util;
 
 public enum From {
 

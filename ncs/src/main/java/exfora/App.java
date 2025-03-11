@@ -1,8 +1,9 @@
 package exfora;
 
 import java.util.Scanner;
-import exfora.model.NumberGuardian;
+
 import exfora.model.util.Base;
+import exfora.model.util.NumberGuardian;
 
 public class App {
     public static void main(String[] args) {
