@@ -52,14 +52,14 @@ public class App {
                 String x = sc.nextLine();
                 System.out.println("Enter the second number: ");
                 String y = sc.nextLine();
-                System.out.println("####################");
+                System.out.println("----------");
                 System.out.println("1 - Plus");
                 System.out.println("2 - Minus");
                 System.out.println("3 - Multiply");
                 System.out.println("4 - Divide");
                 System.out.println("0 - Exit");
                 int op = sc.nextInt();
-                Operation operation = Operation.values()[op];
+                Operation operation = Operation.values()[op-1];
                 switch (op) {
                     case 1 -> System.out.println("Result: " + NumberGuardian.passOperation(bases[in], x, y, operation));
                     case 2 -> System.out.println("Result: " + NumberGuardian.passOperation(bases[in], x, y, operation));
